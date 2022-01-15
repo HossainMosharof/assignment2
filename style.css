@@ -283,6 +283,14 @@ h4 {
   margin-top: 10px;
 }
 
+/* Large Screen */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 /* Tablet View */
 @media only screen and (max-width: 900px) {
   .container {
