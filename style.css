@@ -127,7 +127,7 @@ h4 {
   align-content: center;
   justify-content: center;
   gap: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .products h3 {
@@ -185,32 +185,71 @@ h4 {
 }
 
 /* Footer */
-footer {
-  background-color: #101d2c;
+.footer-sub {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+
+  padding: 40px 0;
+  background-color: var(--border-color);
 }
-.footer-main {
-  /* background-color: #101d2c; */
+
+.connection {
+  flex: 0 1 300px;
+  text-align: center;
+}
+
+.connection h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.connection p {
+  margin-bottom: 10px;
+}
+
+.connection a {
+  font-weight: normal;
+  color: blue;
+}
+
+.connection a:hover {
+  text-decoration: underline;
+}
+
+.connection input {
+  padding: 5px;
+}
+
+.connection button {
+  padding: 5px;
+  background-color: blue;
   color: white;
-  padding: 30px 0;
+  border: 1px solid blue;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-main {
+  background-color: #101d2c;
+  color: white;
+  padding: 20px 0;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .footer-main h5 {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
-
-/* .footer-main p {
-  font-size: 14px;
-} */
 
 .footer-main .icons {
   display: flex;
   justify-content: center;
   gap: 20px;
 
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 10px;
 }
